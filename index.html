@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>smartpicxel – Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of a creative video editor, graphic designer, motion graphics artist, and branding designer crafting cinematic visual experiences."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Page Loader -->
+    <div id="loader">
+      <div class="loader-glow"></div>
+      <div class="loader-text">
+        <span>C</span>
+        <span>i</span>
+        <span>n</span>
+        <span>e</span>
+        <span>m</span>
+        <span>a</span>
+        <span>t</span>
+        <span>i</span>
+        <span>c</span>
+      </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Floating Glow Orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Navigation -->
+    <header class="site-header" id="top">
+      <nav class="navbar">
+        <div class="nav-brand">
+          <div class="brand-mark">CV</div>
+          <div class="brand-text">
+            <span class="brand-name">SMARTPICXEL</span>
+            <span class="brand-tagline">Video · Design · Motion</span>
+          </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#portfolio" class="nav-link">Projects</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <a href="https://www.linkedin.com/in/sauravsingh01" class="nav-cta">Hire Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="section hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-grid container">
+          <div class="hero-content" data-reveal="fade-up">
+            <p class="eyebrow">Video Editor · Motion & Branding</p>
+            <h1>
+              Turning Ideas Into
+              <span class="headline-highlight">Cinematic Visual Experiences</span>
+            </h1>
+            <p class="hero-subtitle">
+              I craft high-impact edits, bold visual identities, and motion graphics that make
+              brands feel like blockbuster experiences.
+            </p>
+            <div class="hero-actions">
+              <a href="https://www.linkedin.com/in/sauravsingh01" class="btn primary-btn">Hire Me</a>
+              <a href="#portfolio" class="btn ghost-btn">View Projects</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Core Specialties</span>
+                <span class="meta-value">Cinematic editing · Motion graphics · Branding</span>
+              </div>
+              <div>
+                <span class="meta-label">Based In</span>
+                <span class="meta-value">Remote · Available Worldwide</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" data-reveal="fade-left">
+            <div class="hero-frame glass-panel">
+              <div class="hero-reel">
+                <div class="reel-tag">Showreel Preview</div>
+                <div class="reel-window">
+                  <div class="reel-bars"></div>
+                  <video
+                    src="6.mp4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="6.mp4"
+                  >
+                    <img src="./thumbnail.jpg" alt="Video thumbnail preview" loading="lazy" />
+                  </video>
+                  <!-- <div class="reel-play">▶</div> -->
+                </div>
+                <div class="reel-meta">
+                  <span>60+ projects</span>
+                  <span>Brands · Creators · Agencies</span>
+                </div>
+              </div>
+              
+              <div class="hero-stats">
+                <div class="stat-card">
+                  <span class="stat-number">2+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">120+</span>
+                  <span class="stat-label">Delivered Projects</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number">4.4</span>
+                  <span class="stat-label">Client Rating</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section">
+        <div class="container section-inner">
+          <div class="section-header" data-reveal="fade-up">
+            <p class="eyebrow">About</p>
+            <h2>The Story Behind The Frames</h2>
+            <p class="section-subtitle">
+              I blend cinematic storytelling, bold graphic design, and strategic branding to
+              create visuals that feel bigger than the screen they live on.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy glass-panel" data-reveal="fade-right">
+              <p>
+                I’m a multidisciplinary creative focused on crafting
+                <strong>cinematic edits</strong>, immersive <strong>motion graphics</strong>, and
+                <strong>brand visuals</strong> that feel sharp, intentional, and unforgettable.
+              </p>
+              <p>
+                From fast-paced social content to slow-burn storytelling, I design every frame with
+                mood, rhythm, and emotion in mind. My work lives at the intersection of
+                <strong>video editing</strong>, <strong>Photoshop manipulation</strong>,
+                <strong>branding</strong>, and <strong>3D perspective mockups</strong>.
+              </p>
+              <p>
+                Whether you’re a brand, creator, or agency, I help you look and feel like a premium
+                cinematic experience—across every platform.
+              </p>
+
+              <div class="about-tags">
+                <span>Video Editing</span>
+                <span>Cinematic Trailers</span>
+                <span>Photoshop Art</span>
+                <span>Poster Design</span>
+                <span>Social Media Design</span>
+                <span>Brand Systems</span>
+                <span>3D Mockups</span>
+              </div>
+            </div>
+
+            <div class="about-details" data-reveal="fade-left">
+              <div class="detail-card">
+                <h3>Creative Toolkit</h3>
+                <ul>
+                  <li>Adobe Premiere Pro for narrative-driven and cinematic edits</li>
+                  <li>After Effects for motion graphics, title sequences, and transitions</li>
+                  <li>Photoshop & Illustrator for manipulation, key visuals, and branding</li>
+                  <li>Canva for fast, scalable social content systems</li>
+                </ul>
+              </div>
+              <div class="detail-card">
+                <h3>What I Love Working On</h3>
+                <ul>
+                  <li>Story-driven edits that feel like a film trailer</li>
+                  <li>Launch visuals for new brands and product drops</li>
+                  <li>YouTube, reels, and ad creatives that actually convert</li>
+                  <li>Stylized thumbnails and social packs that stand out</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills-section">
+        <div class="container section-inner">
+          <div class="section-header" data-reveal="fade-up">
+            <p class="eyebrow">Skills</p>
+            <h2>A Studio-Level Creative Stack</h2>
+            <p class="section-subtitle">
+              A focused blend of editing, motion, and design tools tailored for premium content.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card" data-skill="Premiere Pro" data-level="92" data-reveal="fade-up">
+              <div class="skill-header">
+                <span class="skill-name">Video & reels</span>
+                <span class="skill-percentage">92%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <p class="skill-description">
+                Cinematic editing, pacing, sound design, and story-driven timelines.
+              </p>
+            </div>
+
+           
+
+            <div class="skill-card" data-skill="Photoshop" data-level="90" data-reveal="fade-up">
+              <div class="skill-header">
+                <span class="skill-name">Portrait & Retuch</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <p class="skill-description">
+               “Skin retouching, facial enhancements, premium beauty edits.
+              </p>
+            </div>
+
+           
+
+            <div class="skill-card" data-skill="Canva" data-level="86" data-reveal="fade-up">
+              <div class="skill-header">
+                <span class="skill-name">Canva</span>
+                <span class="skill-percentage">86%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <p class="skill-description">
+                Scalable social media kits, template systems, and campaign assets.
+              </p>
+            </div>
+
+            <div class="skill-card" data-skill="Motion Graphics" data-level="89" data-reveal="fade-up">
+              <div class="skill-header">
+                <span class="skill-name">Motion Graphics</span>
+                <span class="skill-percentage">89%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <p class="skill-description">
+                On-screen graphics, lower thirds, UI motion, and explainer visuals.
+              </p>
+            </div>
+
+            <div class="skill-card" data-skill="Color Grading" data-level="87" data-reveal="fade-up">
+              <div class="skill-header">
+                <span class="skill-name">Color Grading</span>
+                <span class="skill-percentage">87%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <p class="skill-description">
+                Filmic tones, mood-driven palettes, and consistent brand color language.
+              </p>
+            </div>
+
+            
+
+            <div class="skill-card" data-skill="Thumbnail Design" data-level="91" data-reveal="fade-up">
+              <div class="skill-header">
+                <span class="skill-name">Thumbnail Design</span>
+                <span class="skill-percentage">91%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <p class="skill-description">
+                Scroll-stopping thumbnails with clear hierarchy and storytelling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="section portfolio-section">
+        <div class="container section-inner">
+          <div class="section-header" data-reveal="fade-up">
+            <p class="eyebrow">Work</p>
+            <h2>Videos Projects & Visual Systems</h2>
+            <p class="section-subtitle">
+              A curated selection of edits, designs, and brand visuals across formats and platforms.
+            </p>
+          </div>
+
+          <div class="portfolio-filters" data-reveal="fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="video">Video Editing</button>
+            <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="thumbnails">YouTube Thumbnails</button>
+            <button class="filter-btn" data-filter="social">Social Media Ads</button>
+            <button class="filter-btn" data-filter="motion">Motion Graphics</button>
+          </div>
+
+          <div class="portfolio-grid">
+            <article
+              class="project-card"
+              data-category="video motion"
+              data-reveal="fade-up"
+            >
+              <div class="project-media">
+                <div class="project-overlay"> 
+                  <video
+                    src="5.MP4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="5.MP4"
+                  >
+                    <img src="5.MP4" alt="Video thumbnail preview" loading="lazy" />
+                  </video>      
+                 
+                </div>
+                <div class="project-label">Motion Graphics</div>
+                 <a href="https://drive.google.com/file/d/16ZlRa0nXN-kH0ExokrUkmdd_D_XI94Js/view?usp=drivesdk"></a>
+              </div>
+              <div class="project-content">
+                <h3>Faceless Motion Series</h3>
+                <p>
+                  A high-energy Faceless motion  cut for a YouTube launch, blending motion graphics,
+                  typography, and cinematic B rolls.
+                </p>
+                <span class="project-tag">Video Editing · Motion Graphics</span>
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-category="graphic thumbnails"
+              data-reveal="fade-up"
+            >
+              <div class="project-media">
+                <div class="project-overlay">
+                  <video
+                    src="0.mp4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="0.mp4"
+                  >
+                    <img src="0.mp4" alt="Video thumbnail preview" loading="lazy" />
+                  </video>
+
+                </div>
+                <div class="project-label">YouTube Series</div>
+                <a href="https://drive.google.com/file/d/1YzwbIg-8YKRf02kmGgjNeYnEfN1CdMb6/view?usp=drivesdk"></a>
+              </div>
+              <div class="project-content">
+                <h3>High-Impact Thumbnail Suite</h3>
+                <p>
+                  A cohesive thumbnail system for a creator channel, designed for clarity, emotion,
+                  and high click-through.
+                </p>
+                <span class="project-tag">Thumbnail Design · Branding</span>
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-category="branding graphic"
+              data-reveal="fade-up"
+            >
+              <div class="project-media">
+                <div class="project-overlay">
+                  <video
+                    src="1.mp4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="1.mp4"
+                  >
+                    <img src="1.mp4" alt="Video thumbnail preview" loading="lazy" />
+                  </video>
+
+                </div>
+                <div class="project-label">Brand Advertisement</div>
+                <a href="https://drive.google.com/file/d/1hG1hTLznAiFDhNjGqYUTDsGRyuESOP5e/view?usp=drivesdk"></a>
+              </div>
+              <div class="project-content">
+                <h3>Minimal Luxury Brand Identity</h3>
+                <p>
+                  Complete identity with logo, visual system, social templates, and 3D mockups
+                  designed for a premium studio.
+                </p>
+                <span class="project-tag">Branding · 3D Mockups</span>
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-category="social video"
+              data-reveal="fade-up"
+            >
+              <div class="project-media">
+                <div class="project-overlay">
+                  <video
+                    src="2.mp4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="2.mp4"
+                  >
+                    <img src="2.mp4" alt="Video thumbnail preview" loading="lazy" />
+                  </video>
+
+                </div>
+                <div class="project-label">Reels Campaign</div>
+                <a href="https://drive.google.com/file/d/1moR-VMu5j0s-_3UOm7CK3tmFbxN4-j3n/view?usp=drivesdk"></a>
+              </div>
+              <div class="project-content">
+                <h3>Short-Form Social Ad Series</h3>
+                <p>
+                  Fast-paced vertical edits optimized for attention, retention, and shareability
+                  across platforms.
+                </p>
+                <span class="project-tag">Reels Editing · Social Ads</span>
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-category="motion video"
+              data-reveal="fade-up"
+            >
+              <div class="project-media">
+                <div class="project-overlay">
+                  <video
+                    src="3.mp4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="3.mp4"
+                  >
+                    <img src="3.mp4" alt="Video thumbnail preview" loading="lazy" />
+                  </video>
+
+                </div>
+                <div class="project-label">Explainer</div>
+                <a href="https://drive.google.com/file/d/1OCNebw8OXmH-MRNhaz6VhRIZ6oQsYkbA/view?usp=drivesdk"></a>
+              </div>
+              <div class="project-content">
+                <h3>Animated Product Explainer</h3>
+                <p>
+                  Motion-driven storytelling for a digital product, combining UI motion, icons, and
+                  smooth transitions.
+                </p>
+                <span class="project-tag">Motion Graphics · Explainer</span>
+              </div>
+            </article>
+
+            <article
+              class="project-card"
+              data-category="graphic social"
+              data-reveal="fade-up"
+            >
+              <div class="project-media">
+                <div class="project-overlay">
+                  <video
+                    src="4.mp4"
+                    width="100%"
+                    height="auto"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="4.mp4"
+                  >
+                    <img src="4.mp4" alt="Video thumbnail preview" loading="lazy" />
+                  </video>
+
+                </div>
+                <div class="project-label">Social Pack</div>
+                <a href="https://drive.google.com/file/d/1oAZiq9OrXac72d3WLykXrX2Jw4HZOFJ2/view?usp=drivesdk"></a>
+              </div>
+              <div class="project-content">
+                <h3>Campaign Visuals & Poster Set</h3>
+                <p>
+                  Poster-style layouts and social visuals created to give a campaign a bold,
+                  cinematic identity.
+                </p>
+                <span class="project-tag">Poster Design · Social Media</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="section services-section">
+        <div class="container section-inner">
+          <div class="section-header" data-reveal="fade-up">
+            <p class="eyebrow">Services</p>
+            <h2>Crafted For Modern Brands & Creators</h2>
+            <p class="section-subtitle">
+              From edit to identity, I help you look, sound, and feel like a premium visual brand.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card" data-reveal="fade-up">
+              <h3>Professional Video Editing</h3>
+              <p>
+                Narrative cuts, cinematic sequences, and polished story arcs tailored for your
+                platform and audience.
+              </p>
+              <ul>
+                <li>Long-form and short-form storytelling</li>
+                <li>Cinematic pacing and transitions</li>
+                <li>Sound design and music sync</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal="fade-up">
+              <h3>Reels & Short-Form Editing</h3>
+              <p>
+                Scroll-stopping edits optimized for TikTok, Instagram Reels, and YouTube Shorts.
+              </p>
+              <ul>
+                <li>Fast, dynamic pacing</li>
+                <li>On-beat transitions and cuts</li>
+                <li>Hook-driven storytelling</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal="fade-up">
+              <h3>YouTube Video Editing</h3>
+              <p>
+                End-to-end editing for YouTube content that balances retention, storytelling, and
+                brand presence.
+              </p>
+              <ul>
+                <li>Content structuring and pacing</li>
+                <li>On-screen graphics and callouts</li>
+                <li>Series and show identity</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal="fade-up">
+              <h3>Thumbnail & Visual Design</h3>
+              <p>
+                Thumbnails and key visuals designed to stand out in crowded feeds and search
+                results.
+              </p>
+              <ul>
+                <li>Click-optimized thumbnail design</li>
+                <li>Photoshop manipulations and composites</li>
+                <li>Clear visual storytelling</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal="fade-up">
+              <h3>Branding & Visual Identity</h3>
+              <p>
+                Logos, color systems, and visual language built for modern, cinematic brands.
+              </p>
+              <ul>
+                <li>Logo and wordmark design</li>
+                <li>Typography and color direction</li>
+                <li>Social and presentation systems</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal="fade-up">
+              <h3>Motion Graphics & Titles</h3>
+              <p>
+                Premium motion graphics, title sequences, lower thirds, and logo reveals.
+              </p>
+              <ul>
+                <li>Animated titles and supers</li>
+                <li>Logo reveals and intros</li>
+                <li>Graphic overlays and accents</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="section testimonials-section">
+        <div class="container section-inner">
+          <div class="section-header" data-reveal="fade-up">
+            <p class="eyebrow">Testimonials</p>
+            <h2>Trusted By Brands, Creators & Agencies</h2>
+            <p class="section-subtitle">
+              A few words from clients who have turned their visuals into cinematic experiences.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial-card" data-reveal="fade-up">
+              <div class="testimonial-header">
+                <h3>“Felt Like A Netflix Trailer”</h3>
+                <span class="testimonial-role">Creative Director – Lifestyle Brand</span>
+              </div>
+              <p>
+                “The launch video exceeded our expectations. The pacing, color, and motion graphics
+                made the brand feel cinematic and premium. Our audience actually re-watched the
+                ad—which never happens.”
+              </p>
+            </article>
+
+            <article class="testimonial-card" data-reveal="fade-up">
+              <div class="testimonial-header">
+                <h3>“My Channel Finally Looks Cohesive”</h3>
+                <span class="testimonial-role">YouTube Creator</span>
+              </div>
+              <p>
+                “From thumbnails to editing, everything now feels like part of one strong visual
+                identity. CTR improved, and the edits keep people watching way longer.”
+              </p>
+            </article>
+
+            <article class="testimonial-card" data-reveal="fade-up">
+              <div class="testimonial-header">
+                <h3>“Seamless To Work With, Even Remotely”</h3>
+                <span class="testimonial-role">Agency Producer</span>
+              </div>
+              <p>
+                “Communication, structure, and delivery were all on point. Even across time zones,
+                every project hit the deadline and matched the storyboard perfectly.”
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="container section-inner">
+          <div class="section-header" data-reveal="fade-up">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s Build Something Cinematic</h2>
+            <p class="section-subtitle">
+              Share a bit about your project, and I’ll get back with ideas, timelines, and a clear
+              next step.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <form class="contact-form glass-panel" id="contact-form" data-reveal="fade-right">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@email.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="project">Project Details</label>
+                <textarea
+                  id="project"
+                  name="project"
+                  rows="4"
+                  placeholder="Tell me about your project, goals, and timeline."
+                  required
+                ></textarea>
+              </div>
+
+              <p><button type="submit" class="btn primary-btn full-width">Send Project Brief</button></p>
+              <p class="form-message" id="form-message" aria-live="polite"></p>
+            </form>
+
+            <div class="contact-info" data-reveal="fade-left">
+              <div class="contact-card">
+                <h3>Direct Contact</h3>
+                <p>
+                  Prefer to reach out directly? Use any of the links below — I usually respond
+                  within 24 hours.
+                </p>
+                <ul class="contact-list">
+                  <li>
+                    <span>Email</span>
+                    <a href="mailto:shabbukumar095078@gmail.com">shabbukumar095078@gmail.com</a>
+                  </li>
+                 
+                </ul>
+              </div>
+
+              <div class="contact-card">
+                <h3>Social Presence</h3>
+                <p>Follow along for behind-the-scenes edits, breakdowns, and new work.</p>
+                <div class="social-links">
+                  <a
+                    href="https://instagram.com/"
+                    class="social-link"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Instagram"
+                  >
+                    <span class="social-icon">IG</span>
+                    <span class="social-label">Instagram</span>
+                  </a>
+                  <a
+                    href="https://linkedin.com/"
+                    class="social-link"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="LinkedIn"
+                  >
+                    <span class="social-icon">in</span>
+                    <span class="social-label">LinkedIn</span>
+                  </a>
+                  <a
+                    href="mailto:hello@cinematicvisuals.studio"
+                    class="social-link"
+                    aria-label="Email"
+                  >
+                    <span class="social-icon">@</span>
+                    <span class="social-label">Email</span>
+                  </a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-text">
+          © 2024<span id=""></span> Smartpicxel Studio. All rights reserved.
+        </p>
+        <div class="footer-social">
+          <a href="https://instagram.com/@saurav.singh0.1" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <span>IG</span>
+          </a>
+          <a href="https://linkedin.com/sauravsingh01" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <span>in</span>
+          </a>
+          <a href="mailto:shabbukumar095078@gmail.com" aria-label="Email">
+            <span>@</span>
+          </a>
+          
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
