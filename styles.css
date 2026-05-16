@@ -1458,6 +1458,11 @@ margin-left: auto;
     --container-width: min(100% - 32px, 640px);
   }
 
+   .cursor-dot,
+  .cursor-outline{
+    display: none !important;
+  }
+
   .section {
     padding: 72px 0;
   }
