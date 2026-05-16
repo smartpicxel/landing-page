@@ -237,3 +237,39 @@ reelPlay.addEventListener("click", () => {
     video.currentTime = 0;
     video.play();
 });
+
+
+const pgCards = document.querySelectorAll(".pg-card");
+
+pgCards.forEach(card=>{
+
+card.addEventListener("mousemove",(e)=>{
+
+const rect = card.getBoundingClientRect();
+
+const x = e.clientX - rect.left;
+const y = e.clientY - rect.top;
+
+const moveX = (x - rect.width/2) / 25;
+const moveY = (y - rect.height/2) / 25;
+
+card.style.transform = `
+translateY(-5px)
+rotateY(${moveX}deg)
+rotateX(${-moveY}deg)
+`;
+
+});
+
+card.addEventListener("mouseleave",()=>{
+
+card.style.transform = `
+translateY(0)
+rotateY(0)
+rotateX(0)
+`;
+
+});
+
+});
+
