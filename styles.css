@@ -74,6 +74,7 @@ a {
   flex-direction: column;
   gap: 32px;
   z-index: 9999;
+   top: -200px;
 }
 
 .loader-glow {
